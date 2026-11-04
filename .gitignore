@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Node
+node_modules/
+frontend/dist/
+
+# Data - large raw files (keep processed CSVs)
+*.zip
+*.zip_old
+backend/data/kuleuven_raw/
+backend/data/dataset.zip
+backend/data/Feature_engineering.ipynb
+backend/data/fetch_zenodo.py
+
+# Scratch
+scratch/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
